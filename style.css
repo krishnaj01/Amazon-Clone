@@ -45,6 +45,7 @@
 .border:hover
 {
     border: 1px solid white;
+    cursor: pointer;
 }
 
 /* address */
@@ -52,7 +53,8 @@
 .nav-address
 {
     height: 60px;
-    width: 90px;
+    width: 70px;
+    margin-right: 20px;
 }
 
 .nav-address-grid
@@ -103,20 +105,33 @@
     display: flex;
     justify-content: space-evenly;
     height: 40px;
-    width: 620px;
+    width: 850px;
     background-color: pink;
+    border: 2px solid transparent;
     border-radius: 5px;
+}
+
+.nav-search:hover
+{
+    border: 2px solid #FF9900;
 }
 
 .search-select
 {
     background-color: #e6e6e6;
     color: #555555;
-    width: 50px;
+    width: 60px;
+    border: 1px solid #cdcdcd;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border: none;
     text-align: center;
+}
+
+.search-select:hover
+{
+    background-color: #d4d4d4;
+    cursor: pointer;
+    color: black;
 }
 
 .search-input
@@ -128,8 +143,9 @@
 
 .search-icon
 {
-    width: 45px;
+    width: 55px;
     display: flex;
+    border: 2px solid transparent;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -137,6 +153,12 @@
     color: #0f1111;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.search-icon:hover
+{
+    background-color: #F3A847;
+    cursor: pointer;
 }
 
 /* language */
@@ -148,6 +170,7 @@
     display: flex;
     padding: 10px 0px 10px 5px ;
     align-items: end;
+    justify-content: center;
 }
 
 .flag
@@ -157,14 +180,55 @@
     background-image: url(Photos/united-states.png);
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
 .lang-select
 {
     width: 40px;
+    height: 35px;
     background-color: #0f1111;
     border: none;
     font-size: 13px;
     color: #ffffff;
 }
+
+/* sign-in */
+
+.nav-signin
+{
+    padding: 10px;
+}
+
+.nav-first
+{
+    font-size: 12px;
+}
+
+.nav-second
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* returns  & orders */
+
+.nav-returns
+{
+    padding: 10px;
+}
+
+/* cart */
+
+.nav-cart i
+{
+    font-size: 32px;
+}
+
+.nav-cart
+{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
