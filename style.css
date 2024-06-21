@@ -325,6 +325,11 @@
     margin: 10px 0 20px 0;
 }
 
+.box-img:hover
+{
+    cursor: pointer;
+}
+
 .box a
 {
     font-size: 13px;
@@ -410,6 +415,11 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.logo:hover
+{
+    cursor: pointer;
 }
 
 .foot-panel4
