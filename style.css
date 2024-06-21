@@ -292,6 +292,12 @@
     text-decoration: none;
 }
 
+.middle-message a:hover
+{
+    color: #CE6539;
+    text-decoration: underline;
+}
+
 /* shop section */
 
 .shop-section
