@@ -337,6 +337,11 @@
     text-decoration: none;
 }
 
+.box a:hover
+{
+    color: #CE6539;
+}
+
 
 /* footer */
 
